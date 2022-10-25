@@ -12,7 +12,6 @@ const { createApp } = Vue
     methods: {
         titleDynamic: function (event) {
          this.title = this.message; 
-         return this.title
         }
     }
 
