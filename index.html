@@ -14,11 +14,19 @@
 <body>
 
 <div id="app">
-    {{message}}
+    
+<label for="text_input">Inserisci Testo</label>
+<input v-model="message" id=""text_input>
+
+<button @click="titleDynamic">Invia</button>
+
+<h1>{{title}}</h1>
+
+
+
 </div>
 
-
-
  <script src="js/script.js"></script>   
+
 </body>
 </html>
