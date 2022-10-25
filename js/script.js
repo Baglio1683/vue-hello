@@ -4,7 +4,8 @@ const { createApp } = Vue
     data() {
       return {
         message: "", 
-        title: ""
+        title: "", 
+        srcImage: "img/Orange_Bulls_Logo.png"
       }
     }, 
 
